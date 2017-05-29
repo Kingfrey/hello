@@ -10,7 +10,9 @@ void main()
    cout<<"Number is Positive";
  else if(number<0) 
    cout<<"Number is Negative";
- else
+ else if(number==0)
    cout<<"Number is Zero";
+ else
+    cout<<"Invalid Input"; 
  getch();
 }
